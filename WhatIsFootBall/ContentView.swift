@@ -18,18 +18,17 @@ struct ContentView: View {
                 Image(systemName: "figure.american.football")
                     .resizable()
                     .scaledToFit()
-                    .foregroundColor(.blue)
+                    .foregroundColor(.green)
                 Image(systemName: "figure.australian.football")
                     .resizable()
                     .scaledToFit()
-                    .foregroundStyle(.indigo)
+                    .foregroundStyle(.yellow)
                 Image(systemName: "figure.indoor.soccer")
                     .resizable()
                     .scaledToFit()
                     .foregroundStyle(.red)
             }
             Button("Start") {
-                
             }
         }
         .padding()
