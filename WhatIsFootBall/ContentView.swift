@@ -13,7 +13,7 @@ struct ContentView: View {
             Text("What is Football to You?")
                 .font(.largeTitle)
                 .fontWeight(.light)
-                .foregroundStyle(.green)
+                .foregroundStyle(.orange)
             HStack {
                 Image(systemName: "figure.american.football")
                     .resizable()
@@ -26,7 +26,10 @@ struct ContentView: View {
                 Image(systemName: "figure.indoor.soccer")
                     .resizable()
                     .scaledToFit()
-                    .foregroundStyle(.purple)
+                    .foregroundStyle(.red)
+            }
+            Button("Start") {
+                
             }
         }
         .padding()
